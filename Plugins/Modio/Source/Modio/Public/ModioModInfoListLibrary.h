@@ -13,11 +13,11 @@ public:
     UModioModInfoListLibrary();
 
 private:
-    UFUNCTION(BlueprintCallable, BlueprintPure)
+    /*UFUNCTION(BlueprintCallable, BlueprintPure)
     static FModioPagedResult GetPagedResult(const FModioModInfoList& ModInfoList);
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
-    static TArray<FModioModInfo> GetMods(const FModioModInfoList& ModInfoList);
+    static TArray<FModioModInfo> GetMods(const FModioModInfoList& ModInfoList);*/
     
 };
 

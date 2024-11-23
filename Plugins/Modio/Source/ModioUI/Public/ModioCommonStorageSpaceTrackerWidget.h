@@ -7,8 +7,8 @@ UCLASS(Blueprintable)
 class MODIOUI_API UModioCommonStorageSpaceTrackerWidget : public UTickableModioCommonWidget {
     GENERATED_BODY()
 public:
-    UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    FOnStorageSpaceTrackerUpdated OnStorageSpaceTrackerUpdated;
+    /*UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FOnStorageSpaceTrackerUpdated OnStorageSpaceTrackerUpdated;*/
     
     UModioCommonStorageSpaceTrackerWidget();
 

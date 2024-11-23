@@ -1,7 +1,7 @@
 ﻿using UnrealBuildTool;
 
-public class Stalker2GameTarget : TargetRules {
-	public Stalker2GameTarget(TargetInfo Target) : base(Target) {
+public class Stalker2Target : TargetRules {
+	public Stalker2Target(TargetInfo Target) : base(Target) {
 		Type = TargetType.Game;
 		ExtraModuleNames.AddRange(new string[] {
 			"MediaIOCore",

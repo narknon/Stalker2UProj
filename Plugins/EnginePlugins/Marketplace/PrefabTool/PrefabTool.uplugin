@@ -21,12 +21,7 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"PlatformAllowList": [
-				"Win64",
-				"Mac",
-				"Android",
-				"Linux",
-				"WinGDK",
-				"XSX"
+				"Win64"
 			]
 		}
 	]

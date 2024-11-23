@@ -4,7 +4,6 @@
 #include "Engine/DataAsset.h"
 #include "AudioScattererDataAsset.generated.h"
 
-class UTileBitmapAdapter;
 
 UCLASS(Blueprintable)
 class STALKER2_API UAudioScattererDataAsset : public UDataAsset {

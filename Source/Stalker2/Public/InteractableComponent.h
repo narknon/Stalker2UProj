@@ -16,6 +16,10 @@
 class AActor;
 class UBaseInteractableAction;
 
+
+
+
+
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class STALKER2_API UInteractableComponent : public UUIDActorComponent {
     GENERATED_BODY()

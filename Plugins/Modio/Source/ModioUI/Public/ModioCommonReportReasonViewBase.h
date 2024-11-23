@@ -7,11 +7,11 @@ UCLASS(Abstract, Blueprintable, EditInlineNew)
 class MODIOUI_API UModioCommonReportReasonViewBase : public UModioCommonActivatableWidget {
     GENERATED_BODY()
 public:
-    UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    /*UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FOnModioCommonReportReasonViewProceedClicked OnProceedClicked;
     
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    FOnModioCommonReportReasonViewCancelClicked OnCancelClicked;
+    FOnModioCommonReportReasonViewCancelClicked OnCancelClicked;*/
     
     UModioCommonReportReasonViewBase();
 

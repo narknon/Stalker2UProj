@@ -7,8 +7,8 @@ UCLASS(Blueprintable)
 class MODIOUI_API UModioCommonWidgetSwitcher : public UCommonActivatableWidgetSwitcher {
     GENERATED_BODY()
 public:
-    UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    FOnActiveIndexChanged_BP OnActiveWidgetIndexChanged_BP;
+    /*UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FOnActiveIndexChanged_BP OnActiveWidgetIndexChanged_BP;*/
     
     UModioCommonWidgetSwitcher();
 

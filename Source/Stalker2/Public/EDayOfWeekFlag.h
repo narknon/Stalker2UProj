@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "EDayOfWeekFlag.generated.h"
 
-UENUM(BlueprintType)
+UENUM()
 enum class EDayOfWeekFlag : uint8 {
     Monday = 1,
     Tuesday,

@@ -16,17 +16,14 @@
 	"IsExperimentalVersion": false,
 	"Installed": false,
 	"SupportedTargetPlatforms": [
-		"Win64",
-		"WinGDK",
-		"XSX"
+		"Win64"
 	],
 	"Plugins": [
 		{
 			"Name": "GameAnalytics",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"WinGDK"
+				"Win64"
 			]
 		}
 	]

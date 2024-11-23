@@ -6,7 +6,6 @@
 #include "UObject/NoExportTypes.h"
 #include "PrefabAsset.generated.h"
 
-class UGSCFoliagePrefab;
 
 UCLASS(Blueprintable)
 class PREFABASSET_API UPrefabAsset : public UObject {

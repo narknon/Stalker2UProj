@@ -66,14 +66,14 @@ private:
     UFUNCTION(BlueprintCallable, BlueprintPure)
     static bool GetValue_ModioOptionalTerms(const FModioOptionalTerms& OptionalTerms, FModioTerms& Terms);
     
-    UFUNCTION(BlueprintCallable, BlueprintPure)
-    static bool GetValue_ModioOptionalModTagOptions(const FModioOptionalModTagOptions& OptionalModTagOptions, FModioModTagOptions& ModTagOptions);
+    /*UFUNCTION(BlueprintCallable, BlueprintPure)
+    static bool GetValue_ModioOptionalModTagOptions(const FModioOptionalModTagOptions& OptionalModTagOptions, FModioModTagOptions& ModTagOptions);*/
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     static bool GetValue_ModioOptionalModProgressInfo(const FModioOptionalModProgressInfo& OptionalModProgressInfo, FModioModProgressInfo& ModProgressInfo);
     
-    UFUNCTION(BlueprintCallable, BlueprintPure)
-    static bool GetValue_ModioOptionalModInfoList(const FModioOptionalModInfoList& OptionalModInfoList, FModioModInfoList& ModInfoList);
+    /*UFUNCTION(BlueprintCallable, BlueprintPure)
+    static bool GetValue_ModioOptionalModInfoList(const FModioOptionalModInfoList& OptionalModInfoList, FModioModInfoList& ModInfoList);*/
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     static bool GetValue_ModioOptionalModInfo(const FModioOptionalModInfo& OptionalModInfo, FModioModInfo& ModInfo);

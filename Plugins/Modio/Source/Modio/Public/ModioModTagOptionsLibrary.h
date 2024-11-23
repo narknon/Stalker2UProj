@@ -13,11 +13,11 @@ public:
     UModioModTagOptionsLibrary();
 
 private:
-    UFUNCTION(BlueprintCallable, BlueprintPure)
+    /*UFUNCTION(BlueprintCallable, BlueprintPure)
     static TArray<FModioModTagInfo> GetTags(const FModioModTagOptions& ModTags);
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
-    static FModioPagedResult GetPagedResult(const FModioModTagOptions& ModTags);
+    static FModioPagedResult GetPagedResult(const FModioModTagOptions& ModTags);*/
     
 };
 

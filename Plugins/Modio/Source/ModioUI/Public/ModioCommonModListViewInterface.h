@@ -18,8 +18,8 @@ class MODIOUI_API UModioCommonModListViewInterface : public UInterface {
 class MODIOUI_API IModioCommonModListViewInterface : public IInterface {
     GENERATED_BODY()
 public:
-    UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetModsFromModInfoList(const FModioModInfoList& InList, bool bAddToExisting);
+    /*UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+    void SetModsFromModInfoList(const FModioModInfoList& InList, bool bAddToExisting);*/
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void SetModsFromModInfoArray(const TArray<FModioModInfo>& inArray, bool bAddToExisting);

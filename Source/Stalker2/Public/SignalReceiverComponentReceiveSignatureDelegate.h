@@ -4,5 +4,5 @@
 
 class UObject;
 
-UDELEGATE(BlueprintCallable) DECLARE_DYNAMIC_MULTICAST_SPARSE_DELEGATE_OneParam(FSignalReceiverComponentReceiveSignatureUObject*, EnterPropertyName, UObject*, DataObject);
+UDELEGATE(BlueprintCallable) DECLARE_DYNAMIC_MULTICAST_DELEGATE(FSignalReceiverComponentReceiveSignature);
 

@@ -20,8 +20,7 @@
 			"Type": "Runtime",
 			"LoadingPhase": "PostEngineInit",
 			"PlatformAllowList": [
-				"Win64",
-				"WinGDK"
+				"Win64"
 			]
 		},
 		{
