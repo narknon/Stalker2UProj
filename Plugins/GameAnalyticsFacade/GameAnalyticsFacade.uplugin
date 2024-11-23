@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Game Analytics Facade",
+	"Description": "A collection of classes that constitute a facade over GameAnalytics SDK.",
+	"Category": "GameAnalytics",
+	"CreatedBy": "Mataboo, Inc.",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"SupportedTargetPlatforms": [
+		"Win64",
+		"WinGDK",
+		"XSX"
+	],
+	"Plugins": [
+		{
+			"Name": "GameAnalytics",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"WinGDK"
+			]
+		}
+	]
+}

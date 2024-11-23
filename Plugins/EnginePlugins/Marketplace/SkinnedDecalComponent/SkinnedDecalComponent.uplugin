@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 8,
+	"VersionName": "1.7",
+	"FriendlyName": "SkinnedDecalComponent",
+	"Description": "Decal system that follows Skeletal Mesh Bone Deformations & Morph Targets.",
+	"Category": "Rendering",
+	"CreatedBy": "Eddie Ataberk",
+	"CreatedByURL": "",
+	"DocsURL": "https://docs.google.com/document/d/143XU1cLZiNeu347StrXHoC3RRKb8tRS-z-wtS2RvTA8",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/05b6b0f2f8f049aaa469a1da4e09275c",
+	"SupportURL": "",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "SkinnedDecalComponent",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

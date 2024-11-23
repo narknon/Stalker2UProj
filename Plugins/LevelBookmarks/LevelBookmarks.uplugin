@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "LevelBookmarks",
+	"Description": "Allows you to share coordinates easily",
+	"Category": "Debug",
+	"CreatedBy": "GSC Game World",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "LevelBookmarks",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

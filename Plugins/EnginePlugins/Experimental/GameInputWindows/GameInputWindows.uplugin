@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Game Input (Windows)",
+	"Description": "GameInput is a next-generation input API that exposes input devices of all kinds through a single consistent interface.",
+	"Category": "Input Devices",
+	"CreatedBy": "Epic Games, Inc.",
+	"CreatedByURL": "https://epicgames.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"SupportedTargetPlatforms": [
+		"Win64"
+	],
+	"HasExplicitPlatforms": true,
+	"Plugins": [
+		{
+			"Name": "GameInput",
+			"Enabled": true
+		}
+	]
+}

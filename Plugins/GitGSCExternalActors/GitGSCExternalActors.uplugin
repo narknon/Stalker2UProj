@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "GitGSCExternalActors",
+	"Description": "Git External Actors management",
+	"Category": "Source Control",
+	"CreatedBy": "GSC, SRombauts and Epic Games, Inc.",
+	"CreatedByURL": "https://gsc-game.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "GameDataEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "QuestTool",
+			"Enabled": true
+		}
+	]
+}

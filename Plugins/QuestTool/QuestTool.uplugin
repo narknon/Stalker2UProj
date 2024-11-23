@@ -1,0 +1,47 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "QuestTool",
+	"Description": "QuestTool",
+	"Category": "Other",
+	"CreatedBy": "Ardecus",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "GameDataEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "VoiceGen",
+			"Enabled": true
+		},
+		{
+			"Name": "GSCSerializer",
+			"Enabled": true
+		},
+		{
+			"Name": "Paper2D",
+			"Enabled": true
+		},
+		{
+			"Name": "WWise",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "GSCNavigation",
+			"Enabled": true
+		}
+	]
+}

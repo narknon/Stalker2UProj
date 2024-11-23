@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "3.1.2",
+	"FriendlyName": "FSR 3.1",
+	"Description": "FidelityFX Super Resolution 3.1",
+	"Category": "Rendering",
+	"CreatedBy": "AMD",
+	"CreatedByURL": "https://gpuopen.com/unreal-engine/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"SupportedTargetPlatforms": [
+		"Win64",
+		"WinGDK"
+	],
+	"Modules": [
+		{
+			"Name": "FFXFSR3Settings",
+			"Type": "Runtime",
+			"LoadingPhase": "EarliestPossible"
+		}
+	]
+}
