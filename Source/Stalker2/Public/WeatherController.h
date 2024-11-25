@@ -30,7 +30,7 @@ class UWeatherParameterNamesDataAsset;
 class UWeatherPresetDataAsset;
 
 UCLASS(Abstract, Blueprintable)
-class STALKER2_API AWeatherController : public AActor, public IGSCCustomActorValidatorInterface {
+class STALKER2_API AWeatherController : public AActor/*, public IGSCCustomActorValidatorInterface*/ {
     GENERATED_BODY()
 public:
 private:

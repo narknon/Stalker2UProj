@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "ModioModInfo.h"
-#include "ModioModInfoList.h"
+/*#include "ModioModInfoList.h"*/
 #include "ModioPagedResult.h"
 #include "ModioModInfoListLibrary.generated.h"
 

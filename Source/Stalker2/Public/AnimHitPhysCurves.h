@@ -1,5 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "PhysicsControlData.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=PhysicsControl -ObjectName=PhysicsControlMultiplier -FallbackName=PhysicsControlMultiplier
 #include "AnimHitPhysCurves.generated.h"
 

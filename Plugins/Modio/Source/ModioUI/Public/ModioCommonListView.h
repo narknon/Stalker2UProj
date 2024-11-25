@@ -15,7 +15,7 @@ protected:
     TSubclassOf<UModioCommonListViewStyle> ModioStyle;
     
 public:
-    UModioCommonListView();
+    UModioCommonListView(const FObjectInitializer& ObjectInitializer);
 
     UFUNCTION(BlueprintCallable)
     void SetStyle(TSubclassOf<UModioCommonListViewStyle> InStyle);

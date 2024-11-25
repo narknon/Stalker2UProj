@@ -24,7 +24,7 @@ bool UModioCommonEmailAuthCodeView::IsCodeValid_Implementation(const FString& Co
 void UModioCommonEmailAuthCodeView::HandleOnSubmitClicked_Implementation() {
 }
 
-void UModioCommonEmailAuthCodeView::HandleOnCustomSubmitClicked_Implementation(const FText& Text, TEnumAsByte<ETextCommit::Type> CommitMethod) {
+void UModioCommonEmailAuthCodeView::HandleOnCustomSubmitClicked_Implementation(const FText& Text, ETextCommit::Type CommitMethod) {
 }
 
 FString UModioCommonEmailAuthCodeView::GetInputText_Implementation() const {

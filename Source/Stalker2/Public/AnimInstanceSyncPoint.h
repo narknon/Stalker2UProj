@@ -5,7 +5,7 @@
 #include "AnimInstanceSyncPoint.generated.h"
 
 UCLASS(Blueprintable, NonTransient)
-class STALKER2_API UAnimInstanceSyncPoint : public UAnimInstance, public IMovieSceneSectionTemplateDecorator {
+class STALKER2_API UAnimInstanceSyncPoint : public UAnimInstance/*, public IMovieSceneSectionTemplateDecorator*/ {
     GENERATED_BODY()
 public:
     UAnimInstanceSyncPoint();

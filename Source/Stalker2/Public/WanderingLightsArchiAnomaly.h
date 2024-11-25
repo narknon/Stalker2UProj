@@ -19,7 +19,7 @@ class UBoxComponent;
 class UNiagaraSystem;
 
 UCLASS(Blueprintable)
-class STALKER2_API AWanderingLightsArchiAnomaly : public AActor, public IInterface_PostProcessVolume {
+class STALKER2_API AWanderingLightsArchiAnomaly : public AActor/*, public IInterface_PostProcessVolume*/ {
     GENERATED_BODY()
 public:
 protected:

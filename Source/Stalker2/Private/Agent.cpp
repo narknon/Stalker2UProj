@@ -2,7 +2,6 @@
 #include "SkeletalMeshComponentBudgeted.h"
 #include "Components/LODSyncComponent.h"
 #include "MotionWarpingComponent.h"
-#include "PhysicsControlComponent.h"
 #include "AITickComponent.h"
 #include "DataLayerPhysicsComponent.h"
 #include "GSCAIController.h"

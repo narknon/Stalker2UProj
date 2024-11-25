@@ -14,4 +14,4 @@ public:
     
     STALKER2_API FGridInfo();
 };
-
+FORCEINLINE uint32 GetTypeHash(const FGridInfo) { return 0; }

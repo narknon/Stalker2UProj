@@ -1,4 +1,4 @@
-#include "EventManager.h"
+#include "Stalker2/Public/EventManager.h"
 
 UEventManager::UEventManager() {
 }

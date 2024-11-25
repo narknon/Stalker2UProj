@@ -20,7 +20,7 @@ public:
     UAnimNotify_PlayInteractablesFX();
 
     UFUNCTION(BlueprintCallable)
-    static TArray<FString> GetAvailableBones() const;
+    TArray<FString> GetAvailableBones() const;
     
 };
 

@@ -10,7 +10,7 @@
 class UGameGraphRenderingComponent;
 
 UCLASS(Blueprintable)
-class STALKER2_API AGameGraphData : public AActor, public IGSCCustomActorValidatorInterface {
+class STALKER2_API AGameGraphData : public AActor/*, public IGSCCustomActorValidatorInterface*/ {
     GENERATED_BODY()
 public:
 private:

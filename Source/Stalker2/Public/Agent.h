@@ -1,5 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "PhysicsControlComponent.h"
 #include "ActorInteractionDataInterface.h"
 #include "DamageInteractVFXData.h"
 #include "ECutsceneBlinkProfile.h"
@@ -18,7 +19,7 @@ class ULODSyncComponent;
 class UMotionWarpingComponent;
 class UNPCComponent;
 class UNiagaraComponent;
-class UPhysicsControlComponent;
+
 class UPhysicsInteractionComponent;
 class UPhysicsSoundsComponent;
 class UTouchComponent;

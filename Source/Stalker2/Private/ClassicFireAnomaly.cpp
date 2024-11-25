@@ -5,16 +5,12 @@
 #include "NiagaraComponent.h"
 
 AClassicFireAnomaly::AClassicFireAnomaly(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
-    this->CollisionMeshPtr = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CollisionMesh"));
-    const FProperty* p_FlamePillarCapsule_Parent = GetClass()->FindPropertyByName("FlamePillarCapsule");
     this->FlamePillarCapsule = CreateDefaultSubobject<UCapsuleComponent>(TEXT("FlamePillarComponent"));
+    this->CollisionMeshPtr = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CollisionMesh"));
+    this->FlamePillarCapsule->SetupAttachment(RootComponent);
     this->IdleVFX = CreateDefaultSubobject<UNiagaraComponent>(TEXT("IdleVFX"));
     this->DecalComponent = CreateDefaultSubobject<UDecalComponent>(TEXT("DecalComponent"));
-    this->CollisionMeshPtr->SetupAttachment(p_FlamePillarCapsule_Parent->ContainerPtrToValuePtr<UCapsuleComponent>(this));
-    this->FlamePillarCapsule->SetupAttachment(RootComponent);
+    this->CollisionMeshPtr->SetupAttachment(FlamePillarCapsule);
     this->IdleVFX->SetupAttachment(FlamePillarCapsule);
     this->DecalComponent->SetupAttachment(FlamePillarCapsule);
 }
-
-
-

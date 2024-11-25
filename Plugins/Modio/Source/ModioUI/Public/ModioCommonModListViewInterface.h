@@ -4,7 +4,7 @@
 #include "ModioModCollectionEntry.h"
 #include "ModioModID.h"
 #include "ModioModInfo.h"
-#include "ModioModInfoList.h"
+/*#include "ModioModInfoList.h"*/
 #include "ModioCommonModListViewInterface.generated.h"
 
 class UObject;

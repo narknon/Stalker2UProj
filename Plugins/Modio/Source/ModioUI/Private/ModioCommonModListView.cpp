@@ -1,6 +1,6 @@
 #include "ModioCommonModListView.h"
 
-UModioCommonModListView::UModioCommonModListView() {
+UModioCommonModListView::UModioCommonModListView(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bFocusOnceListIsPopulatedRequested = false;
 }
 

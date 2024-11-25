@@ -31,7 +31,7 @@ class US2TargetMeleeSectorComponent;
 class UWetnessComponent;
 
 UCLASS(Blueprintable, NotPlaceable)
-class STALKER2_API AObj : public AModelCharacter, public IHitReceiver, public IVisualLoggerDebugSnapshotInterface, public IGSCMovieSceneActor, public IMovieSceneSectionTemplateDecorator, public IGSCSkeletalAnimationSectionSelectable {
+class STALKER2_API AObj : public AModelCharacter, public IHitReceiver, public IVisualLoggerDebugSnapshotInterface/*, public IGSCMovieSceneActor, public IMovieSceneSectionTemplateDecorator, public IGSCSkeletalAnimationSectionSelectable*/ {
     GENERATED_BODY()
 public:
     DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnObjTurnedToTarget, bool, bSuccess);

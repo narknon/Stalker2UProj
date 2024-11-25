@@ -9,9 +9,9 @@
 #include "ModioModID.h"
 #include "ModioModStats.h"
 #include "ModioModTag.h"
-#include "ModioSketchfabURLList.h"
+/*#include "ModioSketchfabURLList.h"*/
 #include "ModioUser.h"
-#include "ModioYoutubeURLList.h"
+/*#include "ModioYoutubeURLList.h"*/
 #include "ModioModInfo.generated.h"
 
 USTRUCT(BlueprintType)

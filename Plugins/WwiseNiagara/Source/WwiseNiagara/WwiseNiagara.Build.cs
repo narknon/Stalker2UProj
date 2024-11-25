@@ -12,6 +12,7 @@ public class WwiseNiagara : ModuleRules {
             "CoreUObject",
             "Engine",
             "Niagara",
+            "NiagaraCore",
         });
     }
 }

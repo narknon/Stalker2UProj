@@ -8,7 +8,7 @@
 class UWorld;
 
 UCLASS(Blueprintable)
-class STALKER2_API AEditorTools : public AActor, public IGSCCustomActorValidatorInterface {
+class STALKER2_API AEditorTools : public AActor/*, public IGSCCustomActorValidatorInterface*/ {
     GENERATED_BODY()
 public:
 private:

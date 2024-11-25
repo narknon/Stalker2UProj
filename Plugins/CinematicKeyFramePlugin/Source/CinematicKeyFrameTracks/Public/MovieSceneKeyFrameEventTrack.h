@@ -7,7 +7,7 @@
 class UMovieSceneSection;
 
 UCLASS(Blueprintable)
-class CINEMATICKEYFRAMETRACKS_API UMovieSceneKeyFrameEventTrack : public UMovieSceneNameableTrack, public IMovieSceneTrackTemplateProducer {
+class CINEMATICKEYFRAMETRACKS_API UMovieSceneKeyFrameEventTrack : public UMovieSceneNameableTrack/*, public IMovieSceneTrackTemplateProducer*/ {
     GENERATED_BODY()
 public:
 protected:

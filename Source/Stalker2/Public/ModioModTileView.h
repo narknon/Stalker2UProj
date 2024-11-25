@@ -7,7 +7,7 @@ UCLASS(Blueprintable)
 class STALKER2_API UModioModTileView : public UModioCommonModTileView {
     GENERATED_BODY()
 public:
-    UModioModTileView();
+    UModioModTileView(const FObjectInitializer& ObjectInitializer);
 
 };
 

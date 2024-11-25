@@ -13,7 +13,7 @@ protected:
     bool bFocusOnceListIsPopulatedRequested;
     
 public:
-    UModioCommonModListView();
+    UModioCommonModListView(const FObjectInitializer& ObjectInitializer);
 
 
     // Fix for true pure virtual functions not being implemented

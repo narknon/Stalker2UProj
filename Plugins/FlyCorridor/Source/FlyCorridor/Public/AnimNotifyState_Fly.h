@@ -13,7 +13,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FName RootBoneName;
     
-    UAnimNotifyState_Fly();
+    UAnimNotifyState_Fly(const FObjectInitializer& ObjectInitializer);
 
 };
 

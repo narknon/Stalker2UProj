@@ -5,7 +5,6 @@ public class Stalker2EditorTarget : TargetRules {
 		Type = TargetType.Editor;
 		ExtraModuleNames.AddRange(new string[] {
 			"MediaIOCore",
-			"SRLEAsset",
 			"Stalker2",
 		});
 	}

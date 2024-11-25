@@ -7,7 +7,7 @@
 class UGuidActorComponent;
 
 UCLASS(Blueprintable)
-class STALKER2_API AGSCNavModifierVolume : public ANavModifierVolume, public IDynamicBaseNavmeshInclusionInterface {
+class STALKER2_API AGSCNavModifierVolume : public ANavModifierVolume/*, public IDynamicBaseNavmeshInclusionInterface*/ {
     GENERATED_BODY()
 public:
 protected:

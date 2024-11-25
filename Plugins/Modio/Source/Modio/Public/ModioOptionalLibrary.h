@@ -6,9 +6,9 @@
 #include "ModioModDependencyList.h"
 #include "ModioModID.h"
 #include "ModioModInfo.h"
-#include "ModioModInfoList.h"
+/*#include "ModioModInfoList.h"*/
 #include "ModioModProgressInfo.h"
-#include "ModioModTagOptions.h"
+/*#include "ModioModTagOptions.h"*/
 #include "ModioOptionalGameInfo.h"
 #include "ModioOptionalImage.h"
 #include "ModioOptionalModDependencyList.h"

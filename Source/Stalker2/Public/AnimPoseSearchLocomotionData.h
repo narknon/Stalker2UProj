@@ -7,6 +7,7 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=PoseSearch -ObjectName=PoseSearchProceduralMovement -FallbackName=PoseSearchProceduralMovement
 #include "EAnimPoseSearchMoveType.h"
 #include "ESmartCoverType.h"
+#include "PoseSearch/PoseSearchProceduralMovement.h"
 #include "AnimPoseSearchLocomotionData.generated.h"
 
 class UCurveFloat;

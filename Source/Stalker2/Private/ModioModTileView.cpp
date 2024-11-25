@@ -1,6 +1,6 @@
 #include "ModioModTileView.h"
 
-UModioModTileView::UModioModTileView() {
+UModioModTileView::UModioModTileView(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 
 

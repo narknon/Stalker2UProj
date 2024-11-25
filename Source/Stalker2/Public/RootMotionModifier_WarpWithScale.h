@@ -10,7 +10,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FName ScaleWarpTargetName;
     
-    URootMotionModifier_WarpWithScale();
+    URootMotionModifier_WarpWithScale(const FObjectInitializer& ObjectInitializer);
 
 };
 

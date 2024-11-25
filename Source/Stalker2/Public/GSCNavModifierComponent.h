@@ -10,7 +10,7 @@ class UNavArea;
 class UPrimitiveComponent;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class UGSCNavModifierComponent : public UNavModifierComponent, public IDynamicBaseNavmeshInclusionInterface {
+class UGSCNavModifierComponent : public UNavModifierComponent/*, public IDynamicBaseNavmeshInclusionInterface*/ {
     GENERATED_BODY()
 public:
 protected:

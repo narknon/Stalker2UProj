@@ -1,0 +1,8 @@
+{
+	"BuildId": "06cc1d0e-e690-45f2-9b8c-bb8fa083d0c9",
+	"Modules": 
+	{
+		"XeSSBlueprint": "UnrealEditor-XeSSBlueprint.dll",
+		"XeSSCore": "UnrealEditor-XeSSCore.dll"
+	}
+}

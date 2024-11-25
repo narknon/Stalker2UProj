@@ -7,7 +7,7 @@
 #include "ModioUIAsyncLoader.generated.h"
 
 UCLASS(Blueprintable)
-class MODIOUICORE_API UModioUIAsyncLoader : public UWidget, public IModioUIAsyncHandlerWidget, public INamedSlotInterface {
+class MODIOUICORE_API UModioUIAsyncLoader : public UWidget/*, public IModioUIAsyncHandlerWidget, public INamedSlotInterface*/ {
     GENERATED_BODY()
 public:
 protected:

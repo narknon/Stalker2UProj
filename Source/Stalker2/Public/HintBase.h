@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EInteractionType -FallbackName=EInteractionType
+#include "EInteractionType.h"
 #include "HoverAction.h"
 #include "WidgetBase.h"
 #include "HintBase.generated.h"

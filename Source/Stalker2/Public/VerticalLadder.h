@@ -96,7 +96,7 @@ public:
     AVerticalLadder(const FObjectInitializer& ObjectInitializer);
 
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void ProtectMeshLock(const TEnumAsByte<ECollisionEnabled::Type> CollisionType);
+    void ProtectMeshLock(const ECollisionEnabled::Type CollisionType);
     
 private:
     UFUNCTION(BlueprintCallable)

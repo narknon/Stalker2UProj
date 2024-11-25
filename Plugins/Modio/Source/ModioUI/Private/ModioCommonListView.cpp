@@ -1,7 +1,8 @@
 #include "ModioCommonListView.h"
 #include "Templates/SubclassOf.h"
 
-UModioCommonListView::UModioCommonListView() {
+UModioCommonListView::UModioCommonListView(const FObjectInitializer& ObjectInitializer) :
+    Super(ObjectInitializer) {
     this->ModioStyle = NULL;
 }
 

@@ -21,4 +21,4 @@ public:
     
     FWwiseGroupValueCookedData();
 };
-
+FORCEINLINE uint32 GetTypeHash(const FWwiseGroupValueCookedData) { return 0; }

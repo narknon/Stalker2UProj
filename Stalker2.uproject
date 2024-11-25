@@ -19,16 +19,6 @@
 				"PlatformCrypto",
 				"PlatformCryptoOpenSSL"
 			]
-		},
-		{
-			"Name": "MediaIOCore",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "SRLEAsset",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [
@@ -89,10 +79,7 @@
 			"Name": "SteamVR",
 			"Enabled": false,
 			"SupportedTargetPlatforms": [
-				"Win32",
-				"Win64",
-				"Linux",
-				"Mac"
+				"Win64"
 			]
 		},
 		{
@@ -432,7 +419,7 @@
 		},
 		{
 			"Name": "GameInputWindows",
-			"Enabled": true,
+			"Enabled": false,
 			"SupportedTargetPlatforms": [
 				"Win64",
 				"WinGDK"
@@ -519,12 +506,6 @@
 		}
 	],
 	"TargetPlatforms": [
-		"WinGDK",
-		"XSX",
-		"PS5",
-		"WindowsNoEditorWin32",
-		"WindowsNoEditor",
-		"Windows",
-		"GDK"
+		"Win64"
 	]
 }

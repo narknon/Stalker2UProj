@@ -56,7 +56,7 @@ protected:
     void HandleOnSubmitClicked();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void HandleOnCustomSubmitClicked(const FText& Text, TEnumAsByte<ETextCommit::Type> CommitMethod);
+    void HandleOnCustomSubmitClicked(const FText& Text, ETextCommit::Type CommitMethod);
     
 public:
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent, BlueprintPure)

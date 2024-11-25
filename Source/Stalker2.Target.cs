@@ -5,7 +5,6 @@ public class Stalker2Target : TargetRules {
 		Type = TargetType.Game;
 		ExtraModuleNames.AddRange(new string[] {
 			"MediaIOCore",
-			"SRLEAsset",
 			"Stalker2",
 		});
 	}

@@ -1,7 +1,7 @@
 #include "ModioCommonTileView.h"
 #include "Templates/SubclassOf.h"
 
-UModioCommonTileView::UModioCommonTileView() {
+UModioCommonTileView::UModioCommonTileView(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ModioStyle = NULL;
 }
 

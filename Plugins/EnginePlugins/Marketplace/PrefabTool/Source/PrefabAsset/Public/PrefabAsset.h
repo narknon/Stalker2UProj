@@ -1,5 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "GSCFoliagePrefab.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/Object.h"
 #include "UObject/NoExportTypes.h"

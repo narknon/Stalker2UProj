@@ -24,20 +24,18 @@ AObj::AObj(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitialize
     this->AttackComponent = CreateDefaultSubobject<UAttackComponent>(TEXT("AttackComponent"));
     this->FlashlightComponent = NULL;
     this->AkAudioRootComponent = CreateDefaultSubobject<UAkComponent>(TEXT("AkRoot"));
-    const FProperty* p_Mesh_Parent = GetClass()->FindPropertyByName("Mesh");
     this->AkAudioHeadComponent = CreateDefaultSubobject<UAkComponent>(TEXT("AkHead"));
     this->AkAudioPelvisComponent = CreateDefaultSubobject<UAkComponent>(TEXT("AkPelvis"));
     this->AkAudioLeftHandComponent = CreateDefaultSubobject<UAkComponent>(TEXT("AkLeftHand"));
     this->AkAudioRightHandComponent = CreateDefaultSubobject<UAkComponent>(TEXT("AkRightHand"));
-    this->AkAudioComponent = (UAkComponent*)AkAudioPelvisComponent;
+    this->AkAudioComponent = AkAudioPelvisComponent;
     this->ShootingParticle = NULL;
     this->PostShootingParticle = NULL;
-    this->AkAudioRootComponent->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
-    this->AkAudioHeadComponent->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
-    this->AkAudioPelvisComponent->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
-    this->AkAudioLeftHandComponent->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
-    this->AkAudioRightHandComponent->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
-    this->AkAudioComponent->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
+    this->AkAudioRootComponent->SetupAttachment(GetMesh());
+    this->AkAudioHeadComponent->SetupAttachment(GetMesh());
+    this->AkAudioPelvisComponent->SetupAttachment(GetMesh());
+    this->AkAudioLeftHandComponent->SetupAttachment(GetMesh());
+    this->AkAudioRightHandComponent->SetupAttachment(GetMesh());
 }
 
 void AObj::StartCutsceneSequence(const AActor* SynchronizationPoint, const FRotator OverrideRotation) {

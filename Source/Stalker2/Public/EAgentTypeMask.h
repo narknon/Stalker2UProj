@@ -30,6 +30,6 @@ enum class EAgentTypeMask {
     LargeNavAgent = 67888,
     AgentsCrushingStaticDestructs = 106495,
     AgentsAvoidingStaticDestructs = Tushkan,
-    Default = 4294967295,
+    Default = -1,
 };
 

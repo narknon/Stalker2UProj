@@ -51,17 +51,17 @@ bool UModioOptionalLibrary::GetValue_ModioOptionalTerms(const FModioOptionalTerm
     return false;
 }
 
-bool UModioOptionalLibrary::GetValue_ModioOptionalModTagOptions(const FModioOptionalModTagOptions& OptionalModTagOptions, FModioModTagOptions& ModTagOptions) {
+/*bool UModioOptionalLibrary::GetValue_ModioOptionalModTagOptions(const FModioOptionalModTagOptions& OptionalModTagOptions, FModioModTagOptions& ModTagOptions) {
     return false;
-}
+}*/
 
 bool UModioOptionalLibrary::GetValue_ModioOptionalModProgressInfo(const FModioOptionalModProgressInfo& OptionalModProgressInfo, FModioModProgressInfo& ModProgressInfo) {
     return false;
 }
 
-bool UModioOptionalLibrary::GetValue_ModioOptionalModInfoList(const FModioOptionalModInfoList& OptionalModInfoList, FModioModInfoList& ModInfoList) {
+/*bool UModioOptionalLibrary::GetValue_ModioOptionalModInfoList(const FModioOptionalModInfoList& OptionalModInfoList, FModioModInfoList& ModInfoList) {
     return false;
-}
+}*/
 
 bool UModioOptionalLibrary::GetValue_ModioOptionalModInfo(const FModioOptionalModInfo& OptionalModInfo, FModioModInfo& ModInfo) {
     return false;
